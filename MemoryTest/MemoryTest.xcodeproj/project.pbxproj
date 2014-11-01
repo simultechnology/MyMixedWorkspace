@@ -1,0 +1,238 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52A86EBA1582391600821693 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A86EB91582391600821693 /* Foundation.framework */; };
+		52A86EBD1582391600821693 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A86EBC1582391600821693 /* main.m */; };
+		52A86EC11582391600821693 /* MemoryTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 52A86EC01582391600821693 /* MemoryTest.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		52A86EB31582391600821693 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				52A86EC11582391600821693 /* MemoryTest.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		52A86EB51582391600821693 /* MemoryTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MemoryTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A86EB91582391600821693 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		52A86EBC1582391600821693 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52A86EBF1582391600821693 /* MemoryTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MemoryTest-Prefix.pch"; sourceTree = "<group>"; };
+		52A86EC01582391600821693 /* MemoryTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MemoryTest.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52A86EB21582391600821693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A86EBA1582391600821693 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52A86EAA1582391500821693 = {
+			isa = PBXGroup;
+			children = (
+				52A86EBB1582391600821693 /* MemoryTest */,
+				52A86EB81582391600821693 /* Frameworks */,
+				52A86EB61582391600821693 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52A86EB61582391600821693 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52A86EB51582391600821693 /* MemoryTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52A86EB81582391600821693 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52A86EB91582391600821693 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52A86EBB1582391600821693 /* MemoryTest */ = {
+			isa = PBXGroup;
+			children = (
+				52A86EBC1582391600821693 /* main.m */,
+				52A86EC01582391600821693 /* MemoryTest.1 */,
+				52A86EBE1582391600821693 /* Supporting Files */,
+			);
+			path = MemoryTest;
+			sourceTree = "<group>";
+		};
+		52A86EBE1582391600821693 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52A86EBF1582391600821693 /* MemoryTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52A86EB41582391600821693 /* MemoryTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52A86EC41582391600821693 /* Build configuration list for PBXNativeTarget "MemoryTest" */;
+			buildPhases = (
+				52A86EB11582391600821693 /* Sources */,
+				52A86EB21582391600821693 /* Frameworks */,
+				52A86EB31582391600821693 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemoryTest;
+			productName = MemoryTest;
+			productReference = 52A86EB51582391600821693 /* MemoryTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52A86EAC1582391500821693 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 52A86EAF1582391500821693 /* Build configuration list for PBXProject "MemoryTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 52A86EAA1582391500821693;
+			productRefGroup = 52A86EB61582391600821693 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52A86EB41582391600821693 /* MemoryTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52A86EB11582391600821693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A86EBD1582391600821693 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		52A86EC21582391600821693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		52A86EC31582391600821693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		52A86EC51582391600821693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MemoryTest/MemoryTest-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52A86EC61582391600821693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MemoryTest/MemoryTest-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52A86EAF1582391500821693 /* Build configuration list for PBXProject "MemoryTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A86EC21582391600821693 /* Debug */,
+				52A86EC31582391600821693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52A86EC41582391600821693 /* Build configuration list for PBXNativeTarget "MemoryTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A86EC51582391600821693 /* Debug */,
+				52A86EC61582391600821693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52A86EAC1582391500821693 /* Project object */;
+}
