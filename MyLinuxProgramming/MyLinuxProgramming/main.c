@@ -9,13 +9,14 @@
 #include <stdio.h>
 #include "memory2.h"
 #include "memory3.h"
+#include "memory4.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     printf("start!\n");
     //int mem2 = memory2();
     //printf("mem2 : %d\n", mem2);
-    memory3();
+    memory4();
     
     return 0;
 }
