@@ -12,6 +12,7 @@
 		5209047C1A049B3700FAFAAD /* memory2.c in Sources */ = {isa = PBXBuildFile; fileRef = 5209047B1A049B3700FAFAAD /* memory2.c */; };
 		5209047F1A04A04500FAFAAD /* test.c in Sources */ = {isa = PBXBuildFile; fileRef = 5209047D1A04A04500FAFAAD /* test.c */; };
 		520904831A04A33200FAFAAD /* memory3.c in Sources */ = {isa = PBXBuildFile; fileRef = 520904811A04A33200FAFAAD /* memory3.c */; };
+		520904861A04B35D00FAFAAD /* memory4.c in Sources */ = {isa = PBXBuildFile; fileRef = 520904841A04B35C00FAFAAD /* memory4.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +37,8 @@
 		520904801A04A0EC00FAFAAD /* memory2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = memory2.h; sourceTree = "<group>"; };
 		520904811A04A33200FAFAAD /* memory3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = memory3.c; sourceTree = "<group>"; };
 		520904821A04A33200FAFAAD /* memory3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memory3.h; sourceTree = "<group>"; };
+		520904841A04B35C00FAFAAD /* memory4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = memory4.c; sourceTree = "<group>"; };
+		520904851A04B35D00FAFAAD /* memory4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memory4.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,8 @@
 				5209047E1A04A04500FAFAAD /* test.h */,
 				520904811A04A33200FAFAAD /* memory3.c */,
 				520904821A04A33200FAFAAD /* memory3.h */,
+				520904841A04B35C00FAFAAD /* memory4.c */,
+				520904851A04B35D00FAFAAD /* memory4.h */,
 			);
 			path = MyLinuxProgramming;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 				5209047C1A049B3700FAFAAD /* memory2.c in Sources */,
 				5209047A1A04906000FAFAAD /* memory1.c in Sources */,
 				520904731A04628B00FAFAAD /* main.c in Sources */,
+				520904861A04B35D00FAFAAD /* memory4.c in Sources */,
 				520904831A04A33200FAFAAD /* memory3.c in Sources */,
 				5209047F1A04A04500FAFAAD /* test.c in Sources */,
 			);
